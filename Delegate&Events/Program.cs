@@ -12,7 +12,7 @@ class Program
         video.Video1 = "Video 123";
         videoEncoder.videoEncoded +=messageService.onVideoEncode;
         videoEncoder.videoEncoded += emailsService.onVideoEncode;
-
         videoEncoder.Encode(video);
+
     }
 }
